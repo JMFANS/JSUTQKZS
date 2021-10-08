@@ -1,0 +1,2 @@
+# JSUTQKZS
+JSUT公选课脚本
