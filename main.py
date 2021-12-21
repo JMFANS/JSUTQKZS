@@ -5,6 +5,7 @@ from lib.JSUTCourse import JSUTCourse
 def main():
     # 新建类
     if util.student_id is None:
+        print('请先在网页端完成设置')
         exit()
 
     student_id = util.student_id
@@ -49,7 +50,7 @@ def main():
 
                         break
                     else:
-                        print(monitor_list[course_id] + ' | 抢课失败...')
+                        print(monitor_list[course_id] + ' | 人数已满，抢课失败...')
                 else:
                     print(monitor_list[course_id] + ' | 已经抢到自动忽略...')
 
