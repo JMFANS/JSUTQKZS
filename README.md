@@ -28,3 +28,6 @@ http://127.0.0.1：5002/
 ``` shell
 python main.py
 ```
+
+##若缺失部分课程请手动抓包
+详情请看/img/readme
