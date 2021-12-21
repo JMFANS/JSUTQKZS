@@ -62,7 +62,7 @@ class Utils:
         if self.SERVERCHAN == None:
             return
 
-        url = 'https://sc.ftqq.com/{}.send'.format(self.SERVERCHAN)
+        url = 'https://sctapi.ftqq.com/{}.send'.format(self.SERVERCHAN)
         # 标题内容替换
         title = courseName + '课程选课成功！'
         # 替换内容
