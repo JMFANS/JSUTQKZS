@@ -13,7 +13,7 @@ pip install -r requirements.txt
 * windows用户请一次双击目录下的1.cmd 1.5.cmd
 * *在弹出的浏览器内填写自己的学号和自己要选的课，记得点保存至文件
 * 双击运行2.cmd
-
+### Mac及Linux用户将cmd改为sh即刻使用shell形式快速打开
 ### 以下为手动运行
 * shell输入
 ``` shell
@@ -23,11 +23,11 @@ python webService.py
 ```
 http://127.0.0.1：5002/
 ```
-* 此步参考*处
+* 填写信息
 * shell运行
 ``` shell
 python main.py
 ```
 
 ## 若缺失部分课程请手动抓包
-详情请看/img/readme
+详情请看原作者地址和/img/readme
